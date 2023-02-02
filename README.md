@@ -8,17 +8,17 @@ Problem statement: To build a CNN based model which can accurately detect melano
 The dataset consists of 2357 images of malignant and benign oncological diseases, which were formed from the International Skin Imaging Collaboration (ISIC). All images were sorted according to the classification taken with ISIC, and all subsets were divided into the same number of images, with the exception of melanomas and moles, whose images are slightly dominant.
 The data set contains the following diseases:
 
-Actinic keratosis
-Basal cell carcinoma
-Dermatofibroma
-Melanoma
-Nevus
-Pigmented benign keratosis
-Seborrheic keratosis
-Squamous cell carcinoma
+Actinic keratosis<br>
+Basal cell carcinoma<br>
+Dermatofibroma<br>
+Melanoma<br>
+Nevus<br>
+Pigmented benign keratosis<br>
+Seborrheic keratosis<br>
+Squamous cell carcinoma<br>
 Vascular lesion
 
-Project Pipeline
+Project Pipeline<br>
 Data Reading/Data Understanding → Defining the path for train and test images 
 Dataset Creation→ Create train & validation dataset from the train directory with a batch size of 32. Also, make sure you resize your images to 180*180.
 Dataset visualisation → Create a code to visualize one instance of all the nine classes present in the dataset 
